@@ -1,0 +1,10 @@
+{
+  "id": "timestamp",
+  "name": "Timestamp",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Inserta un timestamp UTC ISO 8601 (YYYY-MM-DDTHH:MM:SSZ) en el cursor.",
+  "author": "Jesús",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

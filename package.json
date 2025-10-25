@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-timestamp",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=main.js --format=cjs --platform=node --external:obsidian",
+    "dev": "esbuild src/main.ts --bundle --outfile=main.js --format=cjs --platform=node --external:obsidian --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "obsidian": "latest"
+  }
+}
